@@ -7,7 +7,7 @@ $uploadfile = $uploaddir . basename($_FILES['parcourir']['name']);
 { */
     echo '<img src="'.$_FILES['parcourir']['tmp_name'].'" alt="img">';
 //}
-echo '<pre>';
+/* echo '<pre>';
 if (is_uploaded_file($_FILES['parcourir']['tmp_name'], $uploadfile)) {
     echo "Le fichier est valide, et a été téléchargé
            avec succès. Voici plus d'informations :\n";
@@ -19,6 +19,6 @@ if (is_uploaded_file($_FILES['parcourir']['tmp_name'], $uploadfile)) {
 echo 'Voici quelques informations de débogage :';
 print_r($_FILES);
 
-echo '</pre>';
+echo '</pre>'; */
 
 ?>
